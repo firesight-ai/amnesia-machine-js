@@ -41,7 +41,7 @@ npm install amnesia-machine
 Here's a basic example of how to use amnesia-machine:
 
 ```javascript
-const { HAM, VectorClock } = require('amnesia-machine');
+const { HAM, VectorClock } = require('amnesia-machine/src');
 
 // Initialize HAM with a unique node ID
 const ham = new HAM('node1');

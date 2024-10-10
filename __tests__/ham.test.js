@@ -1,4 +1,4 @@
-const { VectorClock, State, Dup, HAM } = require('../ham');
+const { VectorClock, State, Dup, HAM } = require('../src/ham');
 
 describe('VectorClock', () => {
   test('should increment correctly', () => {

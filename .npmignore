@@ -5,3 +5,4 @@ __tests__
 .vscode
 .idea
 *.log
+src/*.test.js
