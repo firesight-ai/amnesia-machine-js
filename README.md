@@ -1,4 +1,4 @@
-# ham.js 0.1.4
+# amnesia-machine 0.1.4
 
 A robust implementation of the Hypothetical Amnesia Machine (HAM) algorithm with Vector Clocks for advanced conflict resolution in distributed systems.
 
@@ -16,7 +16,7 @@ A robust implementation of the Hypothetical Amnesia Machine (HAM) algorithm with
 
 ## Introduction
 
-ham.js is an advanced implementation of the Hypothetical Amnesia Machine (HAM) algorithm, designed to provide robust conflict resolution for distributed systems. It extends the original HAM concept by incorporating Vector Clocks, offering more precise handling of concurrent updates in a distributed environment.
+amnesia-machine is an advanced implementation of the Hypothetical Amnesia Machine (HAM) algorithm, designed to provide robust conflict resolution for distributed systems. It extends the original HAM concept by incorporating Vector Clocks, offering more precise handling of concurrent updates in a distributed environment.
 
 This library is particularly useful for developers working with decentralized applications, peer-to-peer systems, or any scenario where data consistency across distributed nodes is crucial.
 
@@ -33,15 +33,15 @@ This library is particularly useful for developers working with decentralized ap
 ## Installation
 
 ```bash
-npm install ham.js
+npm install amnesia-machine
 ```
 
 ## Usage
 
-Here's a basic example of how to use ham.js:
+Here's a basic example of how to use amnesia-machine:
 
 ```javascript
-const { HAM, VectorClock } = require('ham.js');
+const { HAM, VectorClock } = require('amnesia-machine');
 
 // Initialize HAM with a unique node ID
 const ham = new HAM('node1');
@@ -92,7 +92,7 @@ console.log(result);
 
 ## Compatibility with Gun
 
-ham.js is designed to be compatible with Gun's data structures and can serve as a drop-in replacement or enhancement for Gun's existing HAM implementation. It provides methods to convert between Gun's state format and Vector Clocks:
+amnesia-machine is designed to be compatible with Gun's data structures and can serve as a drop-in replacement or enhancement for Gun's existing HAM implementation. It provides methods to convert between Gun's state format and Vector Clocks:
 
 ```javascript
 const gunState = { node1: 1, node2: 2 };
@@ -109,41 +109,11 @@ Vector Clocks are used instead of simple timestamps to provide a partial orderin
 
 ### Conflict Resolution Strategy
 
-The conflict resolution strategy in ham.js is based on the following principles:
+The conflict resolution strategy in amnesia-machine is based on the following principles:
 
 1. If the incoming update is from the future (compared to the machine state), it's deferred.
 2. If the incoming update is from the past (compared to the current state), it's considered historical.
 3. If the incoming update is concurrent with the current state, the lexicographically greater value is chosen.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License.
-```
-# Amnesia Machine
-
-Implementation of the Hypothetical Amnesia Machine (HAM) in JavaScript.
-
-## Installation
-
-```bash
-npm install amnesia-machine
-```
-
-## Usage
-
-```javascript
-const { VectorClock, State, Dup, HAM } = require('amnesia-machine');
-
-// Use the classes and functions as needed
-```
-
-## Documentation
-
-(Add brief documentation or link to more detailed docs)
 
 ## Contributing
 
