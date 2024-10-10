@@ -1,0 +1,28 @@
+{
+  "name": "amnesia-machine",
+  "version": "0.1.4",
+  "description": "Implementation of the Hypothetical Amnesia Machine (HAM)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firesight-ai/amnesia-machine-js.git"
+  },
+  "keywords": [
+    "hypothetical",
+    "amnesia",
+    "machine",
+    "HAM",
+    "gundb",
+    "gun",
+    "gun.js"
+  ],
+  "author": "Firesight Inc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firesight-ai/amnesia-machine-js/issues"
+  },
+  "homepage": "https://github.com/firesight-ai/amnesia-machine-js#readme"
+}
