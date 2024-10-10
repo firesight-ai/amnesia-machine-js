@@ -123,3 +123,32 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License.
 ```
+# Amnesia Machine
+
+Implementation of the Hypothetical Amnesia Machine (HAM) in JavaScript.
+
+## Installation
+
+```bash
+npm install amnesia-machine
+```
+
+## Usage
+
+```javascript
+const { VectorClock, State, Dup, HAM } = require('amnesia-machine');
+
+// Use the classes and functions as needed
+```
+
+## Documentation
+
+(Add brief documentation or link to more detailed docs)
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the Apache-2.0 License.

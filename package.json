@@ -4,7 +4,7 @@
   "description": "Implementation of the Hypothetical Amnesia Machine (HAM)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/firesight-ai/amnesia-machine-js/issues"
   },
-  "homepage": "https://github.com/firesight-ai/amnesia-machine-js#readme"
+  "homepage": "https://github.com/firesight-ai/amnesia-machine-js#readme",
+  "devDependencies": {
+    "jest": "^27.0.0"
+  }
 }
