@@ -119,6 +119,10 @@ The conflict resolution strategy in amnesia-machine is based on the following pr
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+## Attribution
+
+The Hypothetical Amnesia Machine is an invention of Mark Nadal. It was originally created to facilitate conflict resolution in [gundb](https://github.com/amark/gun)
+
 ## License
 
 This project is licensed under the Apache-2.0 License.
