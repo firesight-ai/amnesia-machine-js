@@ -1,3 +1,7 @@
 __tests__
 .gitignore
 .npmignore
+.aider*
+.vscode
+.idea
+*.log
